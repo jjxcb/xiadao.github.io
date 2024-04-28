@@ -1,0 +1,13 @@
+/*
+    index 的 content 部分的样式
+*/
+.content {
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+.content .lift,img{
+    position: absolute;
+    top: 50px;
+    left: 15%;
+}

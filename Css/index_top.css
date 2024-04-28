@@ -1,0 +1,55 @@
+/*
+    index 的 top 部分的样式
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../Images/bj.jpg) no-repeat center center fixed;
+}
+.top{
+    height: 60px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.top .navigation{
+    background-color: rgba(192, 255, 254, 0.1);
+    line-height: 60px;
+    height: 60px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.top .navigation span{
+    margin-left: 120px;
+}
+.top .navigation ul{
+    margin-left: 250px;
+}
+.top .navigation ul,span,li{
+    float: left;
+}
+.top .navigation ul li{
+    list-style: none;
+    margin-right:80px;
+}
+.top .navigation ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.top .navigation ul li a:hover{
+    color: #ff9900;
+}
+.top .navigation span{
+    margin-right: 20px;
+}
+.top .navigation span a{
+    color: #fff;
+    text-decoration: none;
+}
+.top .navigation span a:hover{
+    color: #f586d9;
+}
